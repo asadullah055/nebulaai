@@ -3,3 +3,13 @@
 
 # SPA fallback - serve index.html for all other routes
 /*  /index.html  200 
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
