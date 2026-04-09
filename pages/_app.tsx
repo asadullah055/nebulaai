@@ -10,7 +10,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Nebulanexus AI Demo Dashboard</title>
         <meta name="description" content="Demo dashboard for Nebulanexus AI capabilities" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/webp" href="/favicon.webp" />
+        <link rel="shortcut icon" href="/favicon.webp" />
       </Head>
       <Component {...pageProps} />
     </>
